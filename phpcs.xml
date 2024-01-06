@@ -8,12 +8,12 @@
     <file>resources</file>
     <file>tests</file>
 
-    <!--
+    <*--
        You can hard-code ignore patterns directly into your
        custom standard so you don't have to specify the
        patterns on the command line.
     -->
-    <exclude-pattern>*/*.xml</exclude-pattern>
+    <exclude-pattern>!/*.xml</exclude-pattern>
     <exclude-pattern>*/autoload.php</exclude-pattern>
     <exclude-pattern>*/docs/*</exclude-pattern>
     <exclude-pattern>*/vendor/*</exclude-pattern>
@@ -45,3 +45,4 @@
     <rule ref="PSR2"/>
 
 </ruleset>
+ 
